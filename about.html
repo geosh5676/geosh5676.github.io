@@ -34,39 +34,57 @@
             padding: 3rem 2rem;
         }
 
-        .back-link {
-            display: inline-block;
-            color: var(--muted);
-            text-decoration: none;
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-            margin-bottom: 2rem;
-            transition: color 0.2s;
-        }
-
-        .back-link:hover {
-            color: var(--accent);
-        }
-
-        header {
+        .site-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
             margin-bottom: 3rem;
             padding-bottom: 2rem;
             border-bottom: 1px solid var(--border);
         }
 
-        h1 {
+        .site-header .portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .header-text h1 {
             font-weight: 400;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .site-header .header-text h1 a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        .site-header .header-text h1 a:hover {
+            color: var(--accent);
+        }
+
+        .site-header .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-title {
+            margin-bottom: 3rem;
+        }
+
+        .page-title h2 {
+            font-weight: 400;
+            font-size: 1.8rem;
             letter-spacing: 0.02em;
             margin-bottom: 0.5rem;
             color: var(--text);
-        }
-
-        .subtitle {
-            color: var(--muted);
-            font-style: italic;
-            font-size: 1rem;
-            letter-spacing: 0.1em;
         }
 
         section {
@@ -97,20 +115,37 @@
             .container {
                 padding: 2rem 1.25rem;
             }
-            h1 {
-                font-size: 1.6rem;
+            .site-header {
+                gap: 1rem;
+            }
+            .site-header .portrait {
+                width: 60px;
+                height: 60px;
+            }
+            .site-header .header-text h1 {
+                font-size: 1.2rem;
+            }
+            .page-title h2 {
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <a href="index.html" class="back-link">&larr; back</a>
-
-        <header>
-            <h1>About</h1>
-            <p class="subtitle">Geoshino Ollscia</p>
+        <header class="site-header">
+            <a href="index.html">
+                <img src="portrait.png" alt="Portrait" class="portrait">
+            </a>
+            <div class="header-text">
+                <h1><a href="index.html">Geoshino Ollscia</a></h1>
+                <p class="subtitle">clinician · researcher · creative builder</p>
+            </div>
         </header>
+
+        <div class="page-title">
+            <h2>About</h2>
+        </div>
 
         <section>
             <p>
@@ -123,6 +158,7 @@
                 He still sees clients, couples, and runs Men's Groups—gladly.
             </p>
         </section>
+
     </div>
 </body>
 </html>

@@ -34,35 +34,60 @@
             padding: 3rem 2rem;
         }
 
-        .back-link {
-            display: inline-block;
-            color: var(--muted);
-            text-decoration: none;
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-            margin-bottom: 2rem;
-            transition: color 0.2s;
-        }
-
-        .back-link:hover {
-            color: var(--accent);
-        }
-
-        header {
+        .site-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
             margin-bottom: 3rem;
             padding-bottom: 2rem;
             border-bottom: 1px solid var(--border);
         }
 
-        h1 {
+        .site-header .portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .header-text h1 {
             font-weight: 400;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .site-header .header-text h1 a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        .site-header .header-text h1 a:hover {
+            color: var(--accent);
+        }
+
+        .site-header .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-title {
+            margin-bottom: 3rem;
+        }
+
+        .page-title h2 {
+            font-weight: 400;
+            font-size: 1.8rem;
             letter-spacing: 0.02em;
             margin-bottom: 0.5rem;
             color: var(--text);
         }
 
-        .subtitle {
+        .page-title .subtitle {
             color: var(--muted);
             font-style: italic;
             font-size: 1rem;
@@ -73,7 +98,7 @@
             margin-bottom: 4rem;
         }
 
-        h2 {
+        h3 {
             font-weight: 400;
             font-size: 1.2rem;
             color: var(--accent);
@@ -101,7 +126,7 @@
             border-radius: 4px;
         }
 
-        .composition h3 {
+        .composition h4 {
             font-weight: 400;
             font-size: 1.05rem;
             margin-bottom: 0.4rem;
@@ -125,14 +150,23 @@
             border-radius: 3px;
         }
 
-        .placeholder {
-            color: var(--muted);
-            font-style: italic;
-            padding: 3rem 2rem;
-            text-align: center;
-            border: 1px dashed var(--border);
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
             border-radius: 4px;
-            margin-bottom: 1.5rem;
+            background: var(--card-bg);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 4px;
         }
 
         .placeholder-grid {
@@ -157,16 +191,6 @@
             aspect-ratio: 1/1;
         }
 
-        footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border);
-            color: var(--muted);
-            font-size: 0.85rem;
-            text-align: center;
-            letter-spacing: 0.1em;
-        }
-
         a {
             color: var(--accent);
             text-decoration: none;
@@ -182,8 +206,18 @@
             .container {
                 padding: 2rem 1.25rem;
             }
-            h1 {
-                font-size: 1.6rem;
+            .site-header {
+                gap: 1rem;
+            }
+            .site-header .portrait {
+                width: 60px;
+                height: 60px;
+            }
+            .site-header .header-text h1 {
+                font-size: 1.2rem;
+            }
+            .page-title h2 {
+                font-size: 1.5rem;
             }
             .placeholder-grid {
                 grid-template-columns: 1fr;
@@ -193,22 +227,30 @@
 </head>
 <body>
     <div class="container">
-        <a href="index.html" class="back-link">&larr; back</a>
-
-        <header>
-            <h1>Creative Work</h1>
-            <p class="subtitle">compositions &middot; instruments &middot; objects</p>
+        <header class="site-header">
+            <a href="index.html">
+                <img src="portrait.png" alt="Portrait" class="portrait">
+            </a>
+            <div class="header-text">
+                <h1><a href="index.html">Geoshino Ollscia</a></h1>
+                <p class="subtitle">clinician · researcher · creative builder</p>
+            </div>
         </header>
 
+        <div class="page-title">
+            <h2>Creative Work</h2>
+            <p class="subtitle">compositions · instruments · objects</p>
+        </div>
+
         <section id="compositions">
-            <h2>compositions</h2>
+            <h3>compositions</h3>
             <p class="intro">
                 Chamber music exploring texture, memory, and the spaces between sounds.
                 These works have been performed by musicians I'm grateful to collaborate with.
             </p>
 
             <div class="composition">
-                <h3>String Quartet No. 1</h3>
+                <h4>String Quartet No. 1</h4>
                 <p class="description">for two violins, viola, and cello</p>
                 <div class="soundcloud-embed">
                     <iframe
@@ -223,7 +265,7 @@
             </div>
 
             <div class="composition">
-                <h3>Hesitance, After Patience</h3>
+                <h4>Hesitance, After Patience</h4>
                 <p class="description">for chamber ensemble</p>
                 <div class="soundcloud-embed">
                     <iframe
@@ -238,7 +280,7 @@
             </div>
 
             <div class="composition">
-                <h3>Three Cellos</h3>
+                <h4>Three Cellos</h4>
                 <p class="description">for cello trio</p>
                 <div class="soundcloud-embed">
                     <iframe
@@ -254,18 +296,30 @@
         </section>
 
         <section id="instruments">
-            <h2>instrument building</h2>
+            <h3>instrument building</h3>
             <p class="intro">
                 Videos of instruments being built by hand.
             </p>
-            <div class="placeholder-grid">
-                <div class="placeholder-item">[ YouTube video incoming ]</div>
-                <div class="placeholder-item">[ YouTube video incoming ]</div>
+            <div class="video-container" style="margin-bottom: 1.5rem;">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/UEl4QRmRTbc?rel=0&modestbranding=1"
+                    title="Instrument Building"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/QhaDOv0dU4Y?rel=0&modestbranding=1"
+                    title="Instrument Building"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
 
         <section id="chess">
-            <h2>multiplayer chess boards</h2>
+            <h3>multiplayer chess boards</h3>
             <p class="intro">
                 Custom chess boards designed for three or more players.
             </p>
