@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Work — Geoshino Ollscia</title>
+    <style>
+        :root {
+            --bg: #1a1714;
+            --text: #e8e4df;
+            --accent: #c4a882;
+            --muted: #8a8279;
+            --border: #3d3630;
+            --card-bg: #242019;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 2rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.15em;
+            text-transform: lowercase;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: left;
+            color: var(--text);
+            opacity: 0.9;
+        }
+
+        .intro {
+            margin-bottom: 2rem;
+        }
+
+        .composition {
+            margin-bottom: 1.75rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .composition h3 {
+            font-weight: 400;
+            font-size: 1.05rem;
+            margin-bottom: 0.4rem;
+            color: var(--text);
+        }
+
+        .composition .description {
+            font-size: 0.9rem;
+            color: var(--muted);
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .soundcloud-embed {
+            margin-top: 0.75rem;
+        }
+
+        .soundcloud-embed iframe {
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+        }
+
+        .placeholder {
+            color: var(--muted);
+            font-style: italic;
+            padding: 3rem 2rem;
+            text-align: center;
+            border: 1px dashed var(--border);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+        }
+
+        .placeholder-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .placeholder-item {
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--muted);
+            font-style: italic;
+            border: 1px dashed var(--border);
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .placeholder-item.square {
+            aspect-ratio: 1/1;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-align: center;
+            letter-spacing: 0.1em;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            .placeholder-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; back</a>
+
+        <header>
+            <h1>Creative Work</h1>
+            <p class="subtitle">compositions &middot; instruments &middot; objects</p>
+        </header>
+
+        <section id="compositions">
+            <h2>compositions</h2>
+            <p class="intro">
+                Chamber music exploring texture, memory, and the spaces between sounds.
+                These works have been performed by musicians I'm grateful to collaborate with.
+            </p>
+
+            <div class="composition">
+                <h3>String Quartet No. 1</h3>
+                <p class="description">for two violins, viola, and cello</p>
+                <div class="soundcloud-embed">
+                    <iframe
+                        width="100%"
+                        height="120"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/aidos_and_orth_and_petrichor/string-quartet-1&color=%23c4a882&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="composition">
+                <h3>Hesitance, After Patience</h3>
+                <p class="description">for chamber ensemble</p>
+                <div class="soundcloud-embed">
+                    <iframe
+                        width="100%"
+                        height="120"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/aidos_and_orth_and_petrichor/hesitance-after-patience-for-azrieli-submission-with-video-of-juniper-tree&color=%23c4a882&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="composition">
+                <h3>Three Cellos</h3>
+                <p class="description">for cello trio</p>
+                <div class="soundcloud-embed">
+                    <iframe
+                        width="100%"
+                        height="120"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/aidos_and_orth_and_petrichor/threecellos&color=%23c4a882&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="instruments">
+            <h2>instrument building</h2>
+            <p class="intro">
+                Videos of instruments being built by hand.
+            </p>
+            <div class="placeholder-grid">
+                <div class="placeholder-item">[ YouTube video incoming ]</div>
+                <div class="placeholder-item">[ YouTube video incoming ]</div>
+            </div>
+        </section>
+
+        <section id="chess">
+            <h2>multiplayer chess boards</h2>
+            <p class="intro">
+                Custom chess boards designed for three or more players.
+            </p>
+            <div class="placeholder-grid">
+                <div class="placeholder-item square">[ chess board image ]</div>
+                <div class="placeholder-item square">[ chess board image ]</div>
+                <div class="placeholder-item square">[ chess board image ]</div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
