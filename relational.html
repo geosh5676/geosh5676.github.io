@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Work — Geoshino Ollscia</title>
+    <style>
+        :root {
+            --bg: #1a1714;
+            --text: #e8e4df;
+            --accent: #c4a882;
+            --muted: #8a8279;
+            --border: #3d3630;
+            --card-bg: #242019;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .site-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .site-header .portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .header-text h1 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .site-header .header-text h1 a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        .site-header .header-text h1 a:hover {
+            color: var(--accent);
+        }
+
+        .site-header .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-title {
+            margin-bottom: 3rem;
+        }
+
+        .page-title h2 {
+            font-weight: 400;
+            font-size: 1.8rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .page-title .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.15em;
+            text-transform: lowercase;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: left;
+            color: var(--text);
+            opacity: 0.9;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 4px;
+            background: var(--card-bg);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            .site-header {
+                gap: 1rem;
+            }
+            .site-header .portrait {
+                width: 60px;
+                height: 60px;
+            }
+            .site-header .header-text h1 {
+                font-size: 1.2rem;
+            }
+            .page-title h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a href="index.html">
+                <img src="portrait.png" alt="Portrait" class="portrait">
+            </a>
+            <div class="header-text">
+                <h1><a href="index.html">Geoshino Ollscia</a></h1>
+                <p class="subtitle">clinician · researcher · creative builder</p>
+            </div>
+        </header>
+
+        <div class="page-title">
+            <h2>Relational Work</h2>
+            <p class="subtitle">conversations · connection · attachment</p>
+        </div>
+
+        <section>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/1owXnKJud6g?rel=0&modestbranding=1"
+                    title="Relational Work"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
