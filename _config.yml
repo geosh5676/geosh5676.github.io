@@ -1,0 +1,9 @@
+title: Geoshino Ollscia
+description: clinician · researcher · creative builder
+url: "https://geosh5676.github.io"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+  - README.md

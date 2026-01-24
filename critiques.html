@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critiques — Geoshino Ollscia</title>
+    <style>
+        :root {
+            --bg: #1a1714;
+            --text: #e8e4df;
+            --accent: #c4a882;
+            --muted: #8a8279;
+            --border: #3d3630;
+            --card-bg: #242019;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .nav-links {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .nav-links a.active {
+            color: var(--accent);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 2rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .page-subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 1rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .collapsible {
+            margin-bottom: 1rem;
+        }
+
+        .collapsible-header {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            padding: 1.25rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .collapsible-header:hover {
+            border-color: var(--accent);
+        }
+
+        .collapsible-header.open {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-color: var(--accent);
+        }
+
+        .collapsible-title {
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--accent);
+            letter-spacing: 0.1em;
+        }
+
+        .collapsible-icon {
+            color: var(--muted);
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .collapsible-header.open .collapsible-icon {
+            transform: rotate(45deg);
+        }
+
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s ease;
+            background: var(--card-bg);
+            border: 1px solid var(--accent);
+            border-top: none;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+
+        .collapsible-content.open {
+            max-height: 1000px;
+        }
+
+        .collapsible-inner {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s ease;
+        }
+
+        .collapsible-content.open .collapsible-inner {
+            padding: 1.5rem;
+            max-height: 1000px;
+        }
+
+        .collapsible-content p {
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+
+        .collapsible-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .critique-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .critique-item:last-child {
+            border-bottom: none;
+        }
+
+        .critique-source {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .empty-note {
+            color: var(--muted);
+            font-style: italic;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            .nav-links {
+                top: 1rem;
+                right: 1rem;
+                gap: 1rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+                margin-top: 2rem;
+            }
+            .collapsible-header {
+                padding: 1rem 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <a href="/blog">Blog</a>
+        <a href="/critiques.html" class="active">Critiques</a>
+    </div>
+
+    <div class="container">
+        <a href="/" class="back-link">← Home</a>
+
+        <h1>Critiques</h1>
+        <p class="page-subtitle">What others have said, for better or worse</p>
+
+        <div class="collapsible">
+            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                <span class="collapsible-title">Approbation</span>
+                <span class="collapsible-icon">+</span>
+            </div>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    <div class="critique-item">
+                        <p class="empty-note">Praise, when it arrives, will be collected here.</p>
+                    </div>
+                    <!-- Add more critique items as needed:
+                    <div class="critique-item">
+                        <p>"A thoughtful integration of clinical wisdom and computational thinking."</p>
+                        <p class="critique-source">— Someone Kind, Somewhere</p>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+
+        <div class="collapsible">
+            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                <span class="collapsible-title">Complaints</span>
+                <span class="collapsible-icon">+</span>
+            </div>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    <div class="critique-item">
+                        <p class="empty-note">Grievances, when voiced, will be honored here.</p>
+                    </div>
+                    <!-- Add more critique items as needed:
+                    <div class="critique-item">
+                        <p>"Too many cellos."</p>
+                        <p class="critique-source">— Anonymous</p>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleCollapsible(header) {
+            const content = header.nextElementSibling;
+            const isOpen = header.classList.contains('open');
+
+            // Close all others
+            document.querySelectorAll('.collapsible-header.open').forEach(h => {
+                if (h !== header) {
+                    h.classList.remove('open');
+                    h.nextElementSibling.classList.remove('open');
+                }
+            });
+
+            // Toggle current
+            header.classList.toggle('open');
+            content.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
