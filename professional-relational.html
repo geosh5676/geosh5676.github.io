@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Work - Relational — Geoshino Ollscia</title>
+    <style>
+        :root {
+            --bg: #1a1714;
+            --text: #e8e4df;
+            --accent: #c4a882;
+            --muted: #8a8279;
+            --border: #3d3630;
+            --card-bg: #242019;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .site-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .site-header .portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .header-text h1 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .site-header .header-text h1 a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        .site-header .header-text h1 a:hover {
+            color: var(--accent);
+        }
+
+        .site-header .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-title {
+            margin-bottom: 3rem;
+        }
+
+        .page-title h2 {
+            font-weight: 400;
+            font-size: 1.8rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .page-title .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding-left: 1.5rem;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            letter-spacing: 0.15em;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: left;
+            color: var(--text);
+            opacity: 0.9;
+        }
+
+        .service-card {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .service-card h4 {
+            font-weight: 400;
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-card .book-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: var(--accent);
+            color: var(--bg);
+            border-radius: 3px;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+
+        .service-card .book-link:hover {
+            opacity: 0.85;
+            border-bottom: none;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            .site-header {
+                gap: 1rem;
+            }
+            .site-header .portrait {
+                width: 60px;
+                height: 60px;
+            }
+            .site-header .header-text h1 {
+                font-size: 1.2rem;
+            }
+            .page-title h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a href="index.html">
+                <img src="portrait.png" alt="Portrait" class="portrait">
+            </a>
+            <div class="header-text">
+                <h1><a href="index.html">Geoshino Ollscia</a></h1>
+                <p class="subtitle">clinician · researcher · creative builder</p>
+            </div>
+        </header>
+
+        <div class="page-title">
+            <h2>Professional Work - Relational</h2>
+            <p class="subtitle">therapy · couples · groups</p>
+        </div>
+
+        <section id="services">
+            <h3>Clinical Services through TSR</h3>
+
+            <div class="service-card">
+                <h4>Individual Therapy</h4>
+                <p>One-on-one therapeutic work grounded in attachment theory and relational approaches.</p>
+                <a href="#" class="book-link">[PLACEHOLDER: TSR Acuity - Individual]</a>
+            </div>
+
+            <div class="service-card">
+                <h4>Couples Therapy</h4>
+                <p>Working with partners to deepen connection, navigate conflict, and build secure attachment.</p>
+                <a href="#" class="book-link">[PLACEHOLDER: TSR Acuity - Couples]</a>
+            </div>
+
+            <div class="service-card">
+                <h4>Men's Group</h4>
+                <p>Group work exploring masculinity, vulnerability, and authentic connection.</p>
+                <a href="#" class="book-link">[PLACEHOLDER: TSR Acuity - Men's Group]</a>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
