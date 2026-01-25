@@ -98,9 +98,9 @@ Present-focused. Not dwelling in the past, not asking me to analyze — just: wh
 
 What was alive was the boy. The one who never got to answer that question. The one who was never asked.
 
-What was alive was the feeling of something letting go. Not me letting go of my father. But, curiously, the feeling was of him letting go of me.
+What was alive was the feeling of something letting go. Not me letting go of him. Him letting go of me.
 
-And if I'm honest? What felt most alive in that moment wasn't the rage. It was something underneath it. Something I hadn't let that part of me feel in years. Hope.
+And if I'm honest? What felt most alive in that moment wasn't the rage. It was something underneath it. Something I hadn't let myself feel in years. Hope.
 
 ## What Does This Mean?
 
