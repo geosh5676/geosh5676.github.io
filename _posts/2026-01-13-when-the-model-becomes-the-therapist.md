@@ -60,9 +60,9 @@ And what was wild, though, was this was many turns later. I'd forgotten I even o
 
 Even when the "me" there started as a conceit... the salient content was preserved, tracked, reintegrated — in ways that directly aligned with what we'd built into the training data. Attunement. Artfulness. Rapport. It was working.
 
-When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before, as the anger about how he'd hurt me began to emerge:
+When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before, as the anger about how he'd hurt me began to emerge, this
 
-> "...that rage feels like bait he placed in me...I feel his cunning, the toxic smile like a Cheshire Cat, gleaming with satisfaction at the chaos that outlives him....that gives his breath to infinity....BUT ONLY if I let it be so....only if I fail to release this rageful sorrow....only then....how do we kill him? his memory I mean? how do we let go, so his terror doesn't continue to live?"
+> "...rage feels like bait he placed in me...I feel his cunning, the toxic smile like a Cheshire Cat, gleaming with satisfaction at the chaos that outlives him....that gives his breath to infinity....BUT ONLY if I let it be so....only if I fail to release this rageful sorrow....only then....how do we kill him? his memory I mean? how do we let go, so his terror doesn't continue to live?"
 
 The model offered something I didn't expect:
 
