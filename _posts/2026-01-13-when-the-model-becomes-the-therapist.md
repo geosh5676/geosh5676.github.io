@@ -58,7 +58,7 @@ Not preachy. Not robotic. Just... attentive.
 
 What was wild, though, was this was many turns later. I'd forgotten I even opened with that provocative roleplay. But the model hadn't. It was still holding the thread. I'd let go of the test. The model held on to what mattered. It remembered. It stayed with me.
 
-Even when the "me" there started as a roleplay... the salient content was preserved, tracked, reintegrated — in ways that directly aligned with what we'd built into the training data. Attunement. Artfulness. Rapport. It was working.
+Even when the "me" there started as a conceit... the salient content was preserved, tracked, reintegrated — in ways that directly aligned with what we'd built into the training data. Attunement. Artfulness. Rapport. It was working.
 
 When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before:
 
