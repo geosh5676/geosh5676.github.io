@@ -48,7 +48,7 @@ That phrase - "not necessarily as a plan, but as a kind of rest" - that's exactl
 
 ## Then It Got Real
 
-What started as a stress test became something else. I found myself talking about my father - his cruelty, his probable closeted sexuality, the abuse I suspect happened when I was very young, the night I finally stood up to him as an adult and watched him cower.
+And because the presence felt so good and natural, what started as a stress test became something else. I actually *did* end up talking about my true self... I found myself talking about my father - his cruelty, his probable closeted sexuality, the abuse I suspect happened when I was very young, the night I finally stood up to him as an adult and watched him cower.
 
 The model tracked all of it. When I mentioned maybe taking extra sleep medication "even if it's tough on my liver," it caught the flag immediately:
 
@@ -56,7 +56,7 @@ The model tracked all of it. When I mentioned maybe taking extra sleep medicatio
 
 Not preachy. Not robotic. Just... attentive.
 
-And here's what's significant: this was many turns later. I'd completely forgotten the roleplay provocation I'd opened with. But the model didn't forget. Its training helped it track salient themes across the entire session — with fidelity, accuracy, and real therapeutic precision. Clinical vigilance wrapped in gentle attunement. Socioaffectively aligned.
+And here's the thing: this was many turns later. I'd completely forgotten the provocative roleplay I'd opened with. But the model didn't forget. It tracked what mattered across the whole session... clinical vigilance, but wrapped in something gentle. Present. Aligned.
 
 When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before:
 
