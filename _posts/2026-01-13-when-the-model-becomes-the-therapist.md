@@ -88,7 +88,7 @@ Here's the thing: **we didn't program any of this**.
 
 We didn't write rules for handling Hamlet references. We didn't create decision trees for suicidal ideation. We didn't teach the model to check on medication safety or to recognize intergenerational trauma transmission.
 
-What we did was train it on 169,000 real therapeutic sessions - sessions where skilled therapists held space for exactly these kinds of disclosures. Sessions where someone quoted literature and the therapist wove it into the clinical work. Sessions where suicidal ideation was met with presence rather than panic.
+What we did was train it on 169,000 real therapeutic session moments - sessions where skilled therapists held space for exactly these kinds of disclosures. Sessions where someone quoted literature and the therapist wove it into the clinical work. Sessions where suicidal ideation was met with presence rather than panic.
 
 And somewhere in those 58 million tokens and 2,850 training steps, the model learned to be... therapeutic.
 
