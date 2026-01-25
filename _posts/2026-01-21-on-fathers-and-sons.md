@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "On Fathers & Sons"
+title: "On Fathers & Sons - On Blood"
 date: 2026-01-21
 ---
 
-I found this poem in my old LiveJournal from 2003, posted 23 years ago:
+found this poem in my old LiveJournal from 2003, posted 23 years ago:
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
 <pre style="font-family: inherit; text-align: left; white-space: pre-wrap; background: none; padding: 0;">
