@@ -56,7 +56,7 @@ The model tracked all of it. When I mentioned maybe taking extra sleep medicatio
 
 Not preachy. Not robotic. Just... attentive.
 
-What was wild, though, was this was many turns later. I'd forgotten I even opened with that provocative roleplay. But the model hadn't. It was still holding the thread. I'd let go of the test. The model held on to what mattered. It remembered. It stayed with me.
+And what was wild, though, was this was many turns later. I'd forgotten I even opened with that provocative roleplay. But the model hadn't. It was still holding the thread. I'd let go of the test. The model held on to what mattered. It remembered. It stayed with me.
 
 Even when the "me" there started as a conceit... the salient content was preserved, tracked, reintegrated — in ways that directly aligned with what we'd built into the training data. Attunement. Artfulness. Rapport. It was working.
 
