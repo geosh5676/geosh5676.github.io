@@ -96,6 +96,12 @@ The response closed with:
 
 Present-focused. Not dwelling in the past, not asking me to analyze — just: what's here, now, in this moment?
 
+What was alive was the boy. The one who never got to answer that question. The one who was never asked.
+
+What was alive was the feeling of something letting go. Not me letting go of my father. My father letting go of me.
+
+And if I'm honest? What felt most alive in that moment wasn't the rage. It was something underneath it. Something I hadn't let myself feel in years. Hope.
+
 ## What Does This Mean?
 
 Here's the thing: **we didn't program any of this**.
