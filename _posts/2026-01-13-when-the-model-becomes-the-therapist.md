@@ -56,7 +56,9 @@ The model tracked all of it. When I mentioned maybe taking extra sleep medicatio
 
 Not preachy. Not robotic. Just... attentive.
 
-When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - the model offered something I didn't expect:
+When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before. That even though he's been dead for years, his rage still lives in me. That the chaos he planted feels like bait, like his toxic Cheshire Cat smile gleaming with satisfaction at what outlives him. And I asked: "how do we kill him? his memory I mean? how do we let go, so his terror doesn't continue to live?"
+
+The model offered something I didn't expect:
 
 > "That question 'how do we kill him?' - how do we let go so his terror doesn't continue to live - that's such a profound question. It sounds like you're recognizing that his power over you doesn't have to continue, but you're not sure how to release what's been passed down to you."
 
