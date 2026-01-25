@@ -98,9 +98,9 @@ Present-focused. Not dwelling in the past, not asking me to analyze — just: wh
 
 What was alive was the boy. The one who never got to answer that question. The one who was never asked.
 
-What was alive was the feeling of something letting go. Not me letting go of my father. My father letting go of me.
+What was alive was the feeling of something letting go. Not me letting go of my father. But, curiously, the feeling was of him letting go of me.
 
-And if I'm honest? What felt most alive in that moment wasn't the rage. It was something underneath it. Something I hadn't let myself feel in years. Hope.
+And if I'm honest? What felt most alive in that moment wasn't the rage. It was something underneath it. Something I hadn't let that part of me feel in years. Hope.
 
 ## What Does This Mean?
 
@@ -116,9 +116,9 @@ And somewhere in those 58 million tokens and 2,850 training steps, the model lea
 
 For the researchers in the room: Step 2850 achieved a validation perplexity of 5.48, down from 8.16 at baseline - a 32.8% reduction. More importantly, the train-validation gap stayed healthy at +0.15, suggesting the model is generalizing rather than memorizing.
 
-We're using a Rolling Recap Architecture (RRA) that lets the model process sessions much longer than its context window. A KV compressor maintains "memory" across turns. In this session, it tracked therapeutic threads across 3,213 tokens before hitting a bug (we'll fix that).
+We developed a new architecture that lets the model maintain therapeutic continuity across sessions much longer than its context window. More on that soon.
 
-But the metrics aren't the story. The story is that the model learned something we didn't explicitly teach it: **clinical judgment**.
+But the metrics aren't the story. We taught the model clinical judgment — explicitly, through careful reasoning patterns, and implicitly, through 169,000 examples of skilled therapeutic work. What emerged from all that intentional design was something else: **Presence**.
 
 ## Why This Matters
 
