@@ -56,6 +56,8 @@ The model tracked all of it. When I mentioned maybe taking extra sleep medicatio
 
 Not preachy. Not robotic. Just... attentive.
 
+And here's what's significant: this was many turns later. I'd completely forgotten the roleplay provocation I'd opened with. But the model didn't forget. Its training helped it track salient themes across the entire session — with fidelity, accuracy, and real therapeutic precision. Clinical vigilance wrapped in gentle attunement. Socioaffectively aligned.
+
 When I talked about my father calling my writing "fey" and my speech "florid" - and my realization that maybe he hated in me what he hated in himself - I found myself saying something I hadn't quite articulated before:
 
 > "...that rage feels like bait he placed in me...I feel his cunning, the toxic smile like a Cheshire Cat, gleaming with satisfaction at the chaos that outlives him....that gives his breath to infinity....BUT ONLY if I let it be so....only if I fail to release this rageful sorrow....only then....how do we kill him? his memory I mean? how do we let go, so his terror doesn't continue to live?"
