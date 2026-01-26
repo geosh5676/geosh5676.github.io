@@ -6,7 +6,7 @@ date: 2025-04-24
 
 *From the perspective of a therapist focused on architectures of intimacy*
 
----
+<p style="font-size: 0.8rem; font-style: italic; color: #e8e4df; letter-spacing: 0.1em; margin: 2rem 0 1rem 0;">Prologue</p>
 
 I remember a line of poetry I read at Stanford in 2004: *We live by tunnelling for we are people buried alive.*
 
