@@ -8,7 +8,7 @@ date: 2025-04-24
 
 <p style="font-size: 0.8rem; font-style: italic; color: #e8e4df; letter-spacing: 0.1em; margin: -0.5rem 0 1.5rem 0;">From the perspective of a therapist focused on architectures of intimacy</p>
 
-I remember a line of poetry I read at Stanford in 2004: *We live by tunnelling for we are people buried alive.* And remembering that now it makes me think,
+I remember a line of poetry I read at Stanford in 2004: *We live by tunnelling for we are people buried alive.* And remembering that now, thinking of the people with whom I work from all walks of life across the world, I found myself writing,
 
 <blockquote style="font-style: italic; margin: 2rem 0 2rem 1.5rem; padding-left: 1rem; border-left: 2px solid var(--accent); color: var(--text); opacity: 0.9;">
 We are, so many of us, buried in various ways. And the ground separating us is fear, is loneliness. So much of what separates us are limited clarities, which is to say understandable misunderstandings—and regarding the salient losses experienced throughout the life cycle, especially in youth, how they hold, and strengthen our defenses, how they endure, and in time accidentally the walls we build to survive become the fortresses keeping us terribly, effectively alone.
