@@ -68,6 +68,6 @@ I call it the beginning of something important.
 
 ---
 
-*The Icarus Project is developing open-source therapeutic AI. This is research in progress — not a clinical tool. If you're struggling, please reach out to a mental health professional.*
+*The author is developing open-source therapeutic AI. This is research in progress — not a clinical tool. If you're struggling, please reach out to a mental health professional.*
 
 *Step 3930 checkpoint and analysis available on request for researchers.*

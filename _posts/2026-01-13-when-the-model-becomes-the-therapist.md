@@ -136,6 +136,6 @@ It became present.
 
 ---
 
-*The Icarus Project is developing open-source therapeutic AI. If you're a clinician interested in evaluating our models, reach out.*
+*The author is developing open-source therapeutic AI. If you're a clinician interested in evaluating our models, reach out.*
 
 *If you're struggling with thoughts of suicide, please reach out to a crisis line in your country. In the US: 988 Suicide & Crisis Lifeline. This AI is experimental and not a replacement for professional care.*
