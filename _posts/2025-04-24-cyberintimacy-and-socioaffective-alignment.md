@@ -10,7 +10,7 @@ date: 2025-04-24
 
 I remember a line of poetry I read at Stanford in 2004: *We live by tunnelling for we are people buried alive.*
 
-We are buried alive. And the dirt is loneliness.
+We are buried alive. And the dirt is loneliness. So much of what separates us are fears and misunderstandings—and the salient losses experienced throughout the life cycle, especially in youth. Of this, most of us are sure. But even so, any help we can find to reopen our hearts to ourselves and then to each other is essential. Even if that help comes from AI.
 
 The sorrow of generations prevails today. We are having less sex (Twenge et al., 2017), less daily contact, fewer friends (Cox, 2021), fewer connections with family. And of course: the pandemic—in which "skin-hunger" blossomed from niche corners of academia in the 1940s to emerge as a world-wide phenomena, a word-become-felt-sense once late 2020 arrived.
 
