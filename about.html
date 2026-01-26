@@ -112,6 +112,14 @@
             border-bottom-color: var(--accent);
         }
 
+        .about-portrait {
+            float: right;
+            width: 280px;
+            border-radius: 3px;
+            margin: 0 0 1.5rem 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
         @media (max-width: 700px) {
             .container {
                 padding: 2rem 1.25rem;
@@ -119,15 +127,17 @@
             .site-header {
                 gap: 1rem;
             }
-            .site-header .portrait {
-                width: 60px;
-                height: 60px;
-            }
             .site-header .header-text h1 {
                 font-size: 1.2rem;
             }
             .page-title h2 {
                 font-size: 1.5rem;
+            }
+            .about-portrait {
+                float: none;
+                display: block;
+                width: 200px;
+                margin: 0 auto 2rem auto;
             }
         }
     </style>
@@ -135,9 +145,6 @@
 <body>
     <div class="container">
         <header class="site-header">
-            <a href="index.html">
-                <img src="portrait.png" alt="Portrait" class="portrait">
-            </a>
             <div class="header-text">
                 <h1><a href="index.html">J.N.R.O.</a></h1>
                 <p class="subtitle">clinician · researcher · creative builder</p>
@@ -145,6 +152,7 @@
         </header>
 
         <section>
+            <img src="about-portrait.png" alt="" class="about-portrait">
             <p>
                 A licensed psychotherapist and developer with degrees from the University of Chicago and The European Graduate School, and additional studies at Stanford and Juilliard, he brings a foundation in human relational dynamics and connecting expressivity to his technical work in data engineering, training curriculum architecture, and AI systems development.
             </p>
