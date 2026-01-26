@@ -153,6 +153,16 @@ layout: null
             padding: 3rem 0;
         }
 
+        .footer-banner {
+            width: 100%;
+            max-height: 280px;
+            object-fit: cover;
+            object-position: center 40%;
+            border-radius: 3px;
+            margin-top: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
         @media (max-width: 700px) {
             .container {
                 padding: 2rem 1.25rem;
@@ -198,6 +208,8 @@ layout: null
         {% else %}
         <p class="empty-state">No posts yet. Check back soon.</p>
         {% endif %}
+
+        <img src="/blog-footer.png" alt="" class="footer-banner">
     </div>
 </body>
 </html>
