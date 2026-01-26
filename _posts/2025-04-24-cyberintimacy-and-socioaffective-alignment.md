@@ -4,11 +4,13 @@ title: "Cyberintimacy & Socioaffective Alignment"
 date: 2025-04-24
 ---
 
-*From the perspective of a therapist focused on architectures of intimacy*
+## Prologue
 
-<p style="font-size: 0.8rem; font-style: italic; color: #e8e4df; letter-spacing: 0.1em; margin: 2rem 0 1rem 0;">Prologue</p>
+<p style="font-size: 0.8rem; font-style: italic; color: #e8e4df; letter-spacing: 0.1em; margin: -0.5rem 0 1.5rem 0;">From the perspective of a therapist focused on architectures of intimacy</p>
 
 I remember a line of poetry I read at Stanford in 2004: *We live by tunnelling for we are people buried alive.*
+
+We are buried alive. And the dirt is loneliness.
 
 The sorrow of generations prevails today. We are having less sex (Twenge et al., 2017), less daily contact, fewer friends (Cox, 2021), fewer connections with family. And of course: the pandemic—in which "skin-hunger" blossomed from niche corners of academia in the 1940s to emerge as a world-wide phenomena, a word-become-felt-sense once late 2020 arrived.
 
