@@ -44,34 +44,6 @@ The model didn't just label the mother's pathology. It traced how that pathology
 
 This is family systems thinking. This is what takes human therapists years to develop. And it emerged — unprompted, untrained — from a model learning to hold therapeutic presence across long context.
 
-## Why This Is Different
-
-Every therapeutic AI I've seen focuses on the individual. Ask ChatGPT about a client's anxiety and it'll give you CBT techniques. Ask it about family dynamics and you'll get generic psychoeducation about "setting boundaries."
-
-What you won't get is this:
-
-> "Role Reversal Origin: Began in 'diapers' - suggests the caretaker role was assigned before language development, likely during infancy when he had to manage his own needs to avoid overwhelming his mother."
-
-The model isn't just recognizing that Jordanleigh is parentified. It's reasoning about *when* the parentification began, *why* it persists, and *how* the mother's undiagnosed anxiety disorder created the relational field in which a toddler learned that his job was to regulate adult emotions.
-
-This is clinical inference across relational context. And we didn't train for it explicitly.
-
-## The Technical Bit (For Those Who Care)
-
-This emerged at Step 3930 of our Icarus 7.9.3 training run:
-- 80.3 million tokens processed
-- 32,607 iterations
-- Validation perplexity: 5.74 (down from 8.16 baseline)
-- Train-val gap oscillating but generalization continuing
-
-The architecture uses what we call Rolling Recap Architecture (RRA) — a sliding window approach where the model generates clinical summaries that get fed back as context for subsequent windows. This lets the model maintain therapeutic coherity across sessions much longer than its native context window.
-
-But RRA was designed to help the model remember *client* information across windows. We never specifically trained it to formulate family members. The training data focused on client presentation, client internal experience, client therapeutic goals.
-
-What seems to have happened is that the model learned *clinical reasoning patterns* that generalize beyond their training targets. It learned that understanding a client requires understanding their relational field. It learned that symptoms don't exist in isolation — they exist in systems.
-
-And once you learn to think systemically, you apply it everywhere.
-
 ## What This Means
 
 I've been building toward therapeutic AI for years. The goal was always ambitious: create something that could hold space the way a skilled therapist does, that could maintain presence across sessions, that could track the subtle threads of meaning that weave through a person's story.
