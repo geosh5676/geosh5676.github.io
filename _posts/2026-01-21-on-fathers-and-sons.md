@@ -24,7 +24,7 @@ ing as if they were flowers.
 </pre>
 </div>
 
-And at first I wondered—re-discovering this only a moment ago, knowing what I do now of the author's life that I might not have known then, when I posted it, tears almost brimming as I suddenly realized—if this might have been a moment from the life of James Laughlin, in unbearable tenderness, with his son (and written while the latter was still a very small boy). The same son who would, years later, in his twenties, kill himself. The image of blood, even more heartwrending when framed as something beautiful brought to him. It seems that the little Henry mentioned here, however, is likely his other son, whom Laughlin survived, while Robert was his son who died that way. Still, the blood. I remembered the other poem—written afterward, certainly about Robert, certainly regarding blood, and certainly blood delivered to him, too, from his son, just as helplessly:
+And at first I wondered—re-discovering this only a moment ago, knowing what I do now of the author's life that I might not have known then, when I posted it, tears almost brimming as I suddenly realized—if this might have been a moment from the life of James Laughlin, in unbearable tenderness, with his son (and written while the latter was still a very small boy). The same son who would, years later, in his twenties, kill himself. The image of blood, even more heartwrending when framed as something beautiful brought to him. It seems that the little Henry mentioned here, however, is likely his other son, whom Laughlin survived, while Robert was his son who died that way. Still…I remembered the other poem—written afterward, certainly about Robert, certainly regarding blood, and certainly blood delivered to him, too, just as helplessly:
 
 <br>
 
