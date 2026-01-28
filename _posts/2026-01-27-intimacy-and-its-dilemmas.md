@@ -6,7 +6,7 @@ date: 2026-01-27
 
 A client said the most beautiful thing today.
 
-He'd asked me about my world as a therapist, and books I recommend on case studies. And when he pulled up Luepnitz's compelling popular psychology book on Amazon he saw the sharp quills of "Schopenhauer's Porcupines," their hackles flexed in protection, the two animals positioned with their faces turned away from one other, now tail to tail.
+He'd asked me about my world as a therapist, and books I recommend on case studies. And when he pulled up Luepnitz's compelling popular psychology book cover on Amazon he saw the sharp quills of "Schopenhauer's Porcupines," their hackles flexed in protection, the two animals positioned with their faces turned away from one other, now tail to tail.
 
 "Wow," he exclaimed, "that's a really powerful image!"
 
