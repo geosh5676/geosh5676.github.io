@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "The Horns of Sutton's Lesson"
+title: "Sutton's Lesson: Bitter Roots & Bull's Horns"
 date: 2026-01-29
 ---
-
-There's an old truth in medicine: the bitterest roots often yield the sweetest healing. We learn to trust the taste that makes us wince.
 
 Rich Sutton's Bitter Lesson lands the same way for those of us who've spent years cultivating clinical intuition, theoretical frameworks, hard-won expertise. The message seems stark: *computation at scale will outperform your carefully crafted knowledge*. The bull charges. The instinct is to flee, or to stand foolishly in its path.
 
@@ -15,3 +13,11 @@ The very thing that makes the lesson terrifying—that computation will discover
 I think of my own work: not scripting therapeutic responses for AI to parrot, but shaping the conditions under which something like attunement might emerge. Not fighting scale, but riding it toward integrations beyond human bandwidth—toward healing architectures we haven't yet imagined.
 
 The lesson is bitter. The fruit it bears doesn't have to be.
+
+---
+
+> *But what does the ground yield?*
+
+The title names two things, and the second is older than computation by millennia. Bitter roots have always been where healing begins. Gentian root, used since Antiquity for its sharp digestive medicine. Valerian, for the anxious and the sleepless. And from bitter roots, blossoms: chamomile, calendula, St. John's Wort—remedies that persist today because they work, because the earth knew something about healing before we did, and still does.
+
+There's an old truth in medicine: the bitterest roots often yield the sweetest healing. We learn to trust the taste that makes us wince.
