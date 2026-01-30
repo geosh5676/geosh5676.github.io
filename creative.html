@@ -35,11 +35,29 @@
         }
 
         .sticky-banner {
-            position: sticky;
-            top: 0;
-            z-index: 10;
             background: var(--bg);
             border-bottom: 1px solid var(--border);
+        }
+
+        .nav-links {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1.5rem;
+            z-index: 20;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
         }
 
         .sticky-banner-inner {
@@ -239,6 +257,11 @@
             .sticky-banner .header-text h1 {
                 font-size: 1.9rem;
             }
+            .nav-links {
+                top: 1rem;
+                right: 1rem;
+                gap: 1rem;
+            }
             .page-title h2 {
                 font-size: 1.5rem;
             }
@@ -249,6 +272,11 @@
     </style>
 </head>
 <body>
+    <div class="nav-links">
+        <a href="/blog">Blog</a>
+        <a href="/critiques.html">Critiques</a>
+    </div>
+
     <div class="sticky-banner">
         <div class="sticky-banner-inner">
             <div class="portrait-container">
