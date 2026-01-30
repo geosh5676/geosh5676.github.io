@@ -28,64 +28,48 @@
             min-height: 100vh;
         }
 
+        .sticky-banner {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .sticky-banner img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            object-position: center 30%;
+            display: block;
+        }
+
+        .nav-links {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            display: flex;
+            gap: 1.5rem;
+            z-index: 20;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 3rem 2rem;
-        }
-
-        header {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-            align-items: center;
-            margin-bottom: 4rem;
-            padding-bottom: 3rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .portrait-container {
-            position: relative;
-        }
-
-        .portrait {
-            width: 100%;
-            max-width: 380px;
-            border-radius: 3px;
-            box-shadow:
-                0 20px 60px rgba(0, 0, 0, 0.5),
-                0 0 0 1px rgba(196, 168, 130, 0.1);
-        }
-
-        .header-text {
-            padding-left: 1rem;
-        }
-
-        h1 {
-            font-weight: 400;
-            font-size: 2.4rem;
-            letter-spacing: 0.02em;
-            margin-bottom: 0.75rem;
-            color: var(--text);
-        }
-
-        h1 a {
-            color: var(--text);
-            text-decoration: none;
-            border-bottom: none;
-            transition: color 0.3s ease;
-        }
-
-        h1 a:hover {
-            color: var(--accent);
-            border-bottom: none;
-        }
-
-        .subtitle {
-            color: var(--muted);
-            font-style: italic;
-            font-size: 1.1rem;
-            letter-spacing: 0.1em;
         }
 
         section {
@@ -167,26 +151,16 @@
         }
 
         @media (max-width: 700px) {
-            header {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-            .portrait-container {
-                order: -1;
-                display: flex;
-                justify-content: center;
-            }
-            .portrait {
-                max-width: 280px;
-            }
-            .header-text {
-                padding-left: 0;
+            .sticky-banner img {
+                height: 200px;
             }
             .container {
                 padding: 2rem 1.25rem;
             }
-            h1 {
-                font-size: 1.9rem;
+            .nav-links {
+                top: 1rem;
+                right: 1rem;
+                gap: 1rem;
             }
             .ambient-player {
                 position: relative;
@@ -197,34 +171,6 @@
                 opacity: 1;
             }
         }
-
-        .nav-links {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            display: flex;
-            gap: 1.5rem;
-        }
-
-        .nav-links a {
-            color: var(--muted);
-            text-decoration: none;
-            font-size: 0.95rem;
-            letter-spacing: 0.05em;
-            transition: color 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--accent);
-        }
-
-        @media (max-width: 700px) {
-            .nav-links {
-                top: 1rem;
-                right: 1rem;
-                gap: 1rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -233,17 +179,11 @@
         <a href="/critiques.html">Critiques</a>
     </div>
 
-    <div class="container">
-        <header>
-            <div class="portrait-container">
-                <img src="portrait.png" alt="Portrait" class="portrait">
-            </div>
-            <div class="header-text">
-                <h1><a href="about.html">J.N.R.O.</a></h1>
-                <p class="subtitle">clinician &middot; <a href="https://github.com/geosh5676" target="_blank" style="color: var(--muted); border-bottom: 1px solid transparent;">researcher</a> &middot; creative builder</p>
-            </div>
-        </header>
+    <div class="sticky-banner">
+        <img src="blog-banner.png" alt="">
+    </div>
 
+    <div class="container">
         <section id="professional-ml">
             <h2><a href="professional.html">Technical Research - Machine Learning · Embodied AI · HCI</a><br>(<a href="/blog/2025/01/25/socioaffective-alignment-framework/"><em>Socioaffective&nbsp;Alignment</em></a>)</h2>
             <p>
