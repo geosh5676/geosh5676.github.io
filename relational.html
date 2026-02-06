@@ -145,6 +145,18 @@
             border-bottom-color: var(--accent);
         }
 
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .photo-grid img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
         @media (max-width: 700px) {
             .container {
                 padding: 2rem 1.25rem;
@@ -203,6 +215,17 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
+            </div>
+        </section>
+
+        <section id="watches">
+            <h3>watches with my father</h3>
+            <div class="photo-grid">
+                <img src="watches-1.jpg" alt="Watch repair with father">
+                <img src="watches-2.jpg" alt="Watch repair with father">
+                <img src="watches-3.jpg" alt="Watch repair">
+                <img src="watches-4.jpg" alt="Watch repair">
+                <img src="watches-5.jpg" alt="Watch repair tools">
             </div>
         </section>
 
