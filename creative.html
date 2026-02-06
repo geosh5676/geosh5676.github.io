@@ -233,6 +233,19 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
 
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-left: 1.5rem;
+        }
+
+        .photo-grid img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
         a {
             color: var(--accent);
             text-decoration: none;
@@ -409,6 +422,17 @@
             <div class="placeholder-grid">
                 <img src="chess-board-1.jpg" alt="Chess board design sketch" class="chess-img">
                 <img src="chess-board-2.jpg" alt="Chess board design sketch" class="chess-img">
+            </div>
+        </section>
+
+        <section id="watches">
+            <h3>Watches With My Father</h3>
+            <div class="photo-grid">
+                <img src="watches-1.jpg" alt="Watch repair with father">
+                <img src="watches-2.jpg" alt="Watch repair with father">
+                <img src="watches-3.jpg" alt="Watch repair">
+                <img src="watches-4.jpg" alt="Watch repair">
+                <img src="watches-5.jpg" alt="Watch repair tools">
             </div>
         </section>
 
