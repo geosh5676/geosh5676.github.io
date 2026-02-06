@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Entropy & Atopia, & Deterritorialization: Where Cold Math of Information Theory Meets Warm, Terrifying Maelstroms of Human Intimacy—on the difference between KL and JSD"
+title: "The Entropy Between Us: A Love Letter to Uncertainty & The Capacity to Endure"
 date: 2026-02-01
 ---
 
