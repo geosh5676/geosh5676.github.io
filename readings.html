@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readings — J.N.R.O.</title>
+    <style>
+        :root {
+            --bg: #1a1714;
+            --text: #e8e4df;
+            --accent: #c4a882;
+            --muted: #8a8279;
+            --border: #3d3630;
+            --card-bg: #242019;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .site-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .site-header .portrait {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .header-text h1 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .site-header .header-text h1 a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        .site-header .header-text h1 a:hover {
+            color: var(--accent);
+        }
+
+        .site-header .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-title {
+            margin-bottom: 1.5rem;
+        }
+
+        .page-title h2 {
+            font-weight: 400;
+            font-size: 1.8rem;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .page-title .subtitle {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        .page-intro {
+            margin-bottom: 3rem;
+            padding-left: 1.5rem;
+            color: var(--text);
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding-left: 1.5rem;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            letter-spacing: 0.15em;
+        }
+
+        .reading-card {
+            margin-bottom: 1.25rem;
+            padding: 1.25rem 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .reading-card .book-title {
+            font-style: italic;
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .reading-card .book-author {
+            color: var(--muted);
+            font-size: 0.88rem;
+            margin-top: 0.15rem;
+        }
+
+        .reading-card .book-note {
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-style: italic;
+            margin-top: 0.4rem;
+            opacity: 0.8;
+        }
+
+        .section-note {
+            color: var(--muted);
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-bottom: 1.25rem;
+            opacity: 0.85;
+        }
+
+        .epigraph {
+            margin: 4rem 1.5rem;
+            padding: 2rem 2rem;
+            border-left: 2px solid var(--accent);
+            background: var(--card-bg);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .epigraph p {
+            color: var(--text);
+            opacity: 0.9;
+            font-style: italic;
+            line-height: 1.9;
+            margin-bottom: 0;
+        }
+
+        .epigraph .attribution {
+            color: var(--muted);
+            font-style: normal;
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            margin-top: 1rem;
+            text-align: right;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .separator {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 3rem 1.5rem;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            .site-header {
+                gap: 1rem;
+            }
+            .site-header .portrait {
+                width: 60px;
+                height: 60px;
+            }
+            .site-header .header-text h1 {
+                font-size: 1.2rem;
+            }
+            .page-title h2 {
+                font-size: 1.5rem;
+            }
+            section {
+                padding-left: 0.75rem;
+            }
+            .page-intro {
+                padding-left: 0.75rem;
+            }
+            .epigraph {
+                margin: 3rem 0.75rem;
+                padding: 1.5rem 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a href="index.html">
+                <img src="portrait.png" alt="Portrait" class="portrait">
+            </a>
+            <div class="header-text">
+                <h1><a href="index.html">J.N.R.O.</a></h1>
+                <p class="subtitle">clinician · researcher · creative builder</p>
+            </div>
+        </header>
+
+        <div class="page-title">
+            <h2>Readings in Socioaffective Alignment</h2>
+            <p class="subtitle">books · research · recovery · guiding foundations</p>
+        </div>
+
+        <p class="page-intro">
+            Books Joshua recommends for our men's group participants—active, prospective, and alumni—and for anyone drawn to the work of reaching each other.
+        </p>
+
+        <div class="epigraph">
+            <p>
+                Man stands between what he has become and what he is to be.<br>
+                If it were not for this tension between a closed past<br>
+                and an open future,<br>
+                there would be no need to oppose an ideal to the actual.<br>
+                But man is not just another fact and as such complete;<br>
+                he has to choose what he is to be.<br>
+                The tension between past and future<br>
+                forces man to distinguish what he should be from<br>
+                what he has become.<br>
+                Man is in search of an ideal;<br>
+                yet in searching for this ideal,<br>
+                he only seeks to become<br>
+                truly himself.
+            </p>
+            <p class="attribution">— Karsten Harries</p>
+        </div>
+
+        <hr class="separator">
+
+        <section>
+            <h3>On Relationships</h3>
+            <p class="section-note">Can be read solo or with partners</p>
+
+            <div class="reading-card">
+                <div class="book-title">Secure Love</div>
+                <div class="book-author">Julie Menanno</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Love Sense</div>
+                <div class="book-author">Sue Johnson</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Conscious Loving</div>
+                <div class="book-author">Harville Hendrix</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Passionate Marriage</div>
+                <div class="book-author">David Schnarch</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>On Men</h3>
+
+            <div class="reading-card">
+                <div class="book-title">All works</div>
+                <div class="book-author">Terry Real</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Manhood in the Making</div>
+                <div class="book-author">David Gilmore</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Raising Cain</div>
+                <div class="book-author">Dan Kindlon &amp; Michael Thompson</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Of Boys and Men</div>
+                <div class="book-author">Richard Reeves</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Mental Health Workbook for Men</div>
+                <div class="book-author">Kelli Khalili</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Boys &amp; Sex</div>
+                <div class="book-author">Peggy Orenstein</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">The Boy Crisis</div>
+                <div class="book-author">Warren Farrell &amp; John Gray</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">The Will to Change</div>
+                <div class="book-author">bell hooks</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Understanding Women</h3>
+            <p class="section-note">Good books to help us understand the women in our lives</p>
+
+            <div class="reading-card">
+                <div class="book-title">The New Menopause</div>
+                <div class="book-author">Mary Claire Haver</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">She Comes First</div>
+                <div class="book-author">Ian Kerner</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Come As You Are</div>
+                <div class="book-author">Emily Nagoski</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Girls &amp; Sex</div>
+                <div class="book-author">Peggy Orenstein</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Women's Sexuality Across the Life Span</div>
+                <div class="book-author">Judith Daniluk</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">The Female Brain</div>
+                <div class="book-author">Louann Brizendine</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <h3>Videos &amp; Podcasts</h3>
+            <p class="section-note">To watch or listen while doing other things</p>
+
+            <div class="reading-card">
+                <div class="book-title">Harvard Commencement Speech</div>
+                <div class="book-author">J.K. Rowling</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">The Last Lecture</div>
+                <div class="book-author">Randy Pausch</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Terry Real &amp; Andrew Huberman Podcast</div>
+                <div class="book-author">Huberman Lab</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Us — audiobook</div>
+                <div class="book-author">Terry Real</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <h3>For Potential Fathers</h3>
+
+            <div class="reading-card">
+                <div class="book-title">Motherhood — Is It for Me?</div>
+                <div class="book-author">Ann Davidman &amp; Denise L. Carlini</div>
+                <div class="book-note">Written for women, but the same is true of us</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Compulsivity</h3>
+
+            <div class="reading-card">
+                <div class="book-title">Your Brain on Porn</div>
+                <div class="book-author">Gary Wilson</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Shame</h3>
+
+            <div class="reading-card">
+                <div class="book-title">Embracing Shame</div>
+                <div class="book-author">Bret Lyon &amp; Sheila Rubin</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Infidelity &amp; Re-commitment</h3>
+
+            <div class="reading-card">
+                <div class="book-title">The Courage to Stay</div>
+                <div class="book-author">Cheryl Hunter</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Help Her Heal</div>
+                <div class="book-author">Carol Juergensen Sheets</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Infidelity &amp; Discernment</h3>
+
+            <div class="reading-card">
+                <div class="book-title">After the Affair</div>
+                <div class="book-author">Janis Abrahms Spring</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <h3>Philosophy</h3>
+
+            <div class="reading-card">
+                <div class="book-title">I and Thou</div>
+                <div class="book-author">Martin Buber</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Forgiveness</div>
+                <div class="book-author">Vladimir Jankélévitch</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">All works</div>
+                <div class="book-author">Alain de Botton</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">The Four Loves</div>
+                <div class="book-author">C.S. Lewis</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Somatic Healing</h3>
+
+            <div class="reading-card">
+                <div class="book-title">All works</div>
+                <div class="book-author">Arielle Schwartz</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Trauma-Sensitive Yoga in Therapy</div>
+                <div class="book-author">David Emerson</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Spiritual</h3>
+
+            <div class="reading-card">
+                <div class="book-title">Finding Your Way Home</div>
+                <div class="book-author">Melody Beattie</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">All works</div>
+                <div class="book-author">Oriah Mountain Dreamer</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <h3>For Clinicians</h3>
+            <p class="section-note">For other clinicians also interested in this work</p>
+
+            <div class="reading-card">
+                <div class="book-title">Loving with the Brain in Mind</div>
+                <div class="book-author">Stan Tatkin</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Love and War in Intimate Relationships</div>
+                <div class="book-author">Marion Solomon &amp; Stan Tatkin</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">You Are the One You've Been Waiting For</div>
+                <div class="book-author">Richard Schwartz</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Men Who Hate Women and the Women Who Love Them</div>
+                <div class="book-author">Susan Forward</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Married to Mother</div>
+                <div class="book-author">Kenneth Adams</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Research</h3>
+
+            <div class="reading-card">
+                <div class="book-title">The Defense Cascade</div>
+                <div class="book-author">Harvard Review of Psychiatry</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Recovery Communities</h3>
+            <p class="section-note">And their books</p>
+
+            <div class="reading-card">
+                <div class="book-title">Alcoholics Anonymous</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Sex Addicts Anonymous</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Overeaters Anonymous</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Gamblers Anonymous</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <h3>Pamphlets &amp; Tools</h3>
+            <p class="section-note">Things you can search online to find, print, and keep nearby</p>
+
+            <div class="reading-card">
+                <div class="book-title">Repair Checklist</div>
+                <div class="book-author">The Gottman Institute</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">13 Steps for Managing Emotional Flashbacks</div>
+                <div class="book-author">Pete Walker</div>
+            </div>
+            <div class="reading-card">
+                <div class="book-title">Emotion Wheels</div>
+                <div class="book-note">There are many — search images, explore a few, download the one that resonates, and print it up to practice familiarization with emotion</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <div class="epigraph">
+            <p>
+                I am curious to know where my feet stand—and what this is flooding me, childhood or manhood—and the hunger that crosses the bridge between.
+            </p>
+            <p class="attribution">— Walt Whitman</p>
+        </div>
+
+    </div>
+</body>
+</html>
